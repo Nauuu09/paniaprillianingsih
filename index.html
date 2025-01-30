@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Panii ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #ffccdd, #ff99cc);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: #ff66b2;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+        }
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(255, 51, 133, 0.2);
+        }
+        h1 {
+            font-size: 2.8em;
+            color: #ff3385;
+            animation: bounce 1s ease-in-out infinite alternate;
+        }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-5px); }
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .gallery {
+            margin-top: 20px;
+        }
+        .photo-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .photo-grid img {
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(255, 51, 133, 0.3);
+            transition: transform 0.3s;
+        }
+        .photo-grid img:hover {
+            transform: scale(1.1);
+        }
+        button {
+            background-color: #ff3385;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 25px;
+            margin: 10px 5px;
+            transition: 0.3s;
+            box-shadow: 0 4px 8px rgba(255, 51, 133, 0.3);
+        }
+        button:hover {
+            background-color: #ff66b2;
+            transform: scale(1.1);
+        }
+        .hidden {
+            display: none;
+        }
+        .heart-animation {
+            position: absolute;
+            font-size: 20px;
+            color: #ff66b2;
+            animation: floatUp 3s ease-in-out infinite;
+        }
+        @keyframes floatUp {
+            from { transform: translateY(0); opacity: 1; }
+            to { transform: translateY(-100px); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">Untuk pacalll akuuu tersayanggg ❤️</h1>
+        <p class="fade-in delay">Pani Aprillia Ningsih, pacarr akuu, cewee akuu, sayanggg akuu, cintaa akuu, wonder womann nyaa akuu</p>
+        <audio id="background-music" loop>
+            <source src="bukti - Virgoun (lirik) [It48cgktDFU].mp3" type="audio/mpeg">
+            Browser kamu tidak mendukung audio tag.
+        </audio>
+        
+        <button onclick="showMessage()">Buka Surat</button>
+        <div id="message" class="hidden">
+            <p>SAYANGGGG NYAAAA AKUUUU</p>
+            <p>Aku cuma mau bilang terima kasih. Terima kasih karena setiap kali aku ngerasa lelah atau ragu, kamu selalu ada, jadi alasan buat aku terus maju. Ada kalanya hidup ini nggak gampang, tapi setiap kali aku mikirin kamu, rasanya semua jadi lebih ringan. Seperti ada dorongan untuk terus berusaha, karena aku tahu kamu ada di sini, mendukung., Tetap semangat, ya. Kita jalan bareng-bareng, kita jaga bareng bareng ya sayaang, karena aku yakin, kita bisa capai apa yang kita impikan, asalkan kita nggak berhenti.</p>
+        </div>
+        
+        <button onclick="showQuotes()">Pantun</button>
+        <div id="quotes" class="hidden">
+            <p id="randomQuote"></p>
+        </div>
+        
+        <button onclick="playMusic()">Putar Lagu</button>
+        <button onclick="showGift()">Pilih Hadiah</button>
+        <div id="gift" class="hidden">
+            <p>Kamu pilih hadiah:</p>
+            <button onclick="alert('💐 KANNN SUDAAA BUNGAAA EDELWEISSS YANG CANTIKK')">Bunga 🌸</button>
+            <button onclick="alert('🍫 TIDAAA USAHH MAKAN COKLATTT, KAMUU UDAA MANISSS SOALNYAA')">Cokelat 🍫</button>
+            <button onclick="alert('🤗 PELUKANNN JAUHHH BUATTT SAYAANGG NYA AKUU')">Pelukan 🤗</button>
+        </div>
+        
+        <div class="gallery">
+            <h2 class="fade-in">Foto - Foto Kita 📸</h2>
+            <div class="photo-grid">
+                <img src="WhatsApp Image 2025-01-30 at 09.14.36_4b2b5f0b.jpg" alt="Momen indah" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.14.36_6f694966.jpg" alt="Bahagia bersama" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.14.37_c5b918b0.jpg" alt="Kenangan manis" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.14.39_83a834cb.jpg" alt="Kenangan manis" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.14.43_4e02509a.jpg" alt="Kenangan manis" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.14.43_36e82fdc.jpg" alt="Kenangan manis" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.19.42_3f899c09.jpg" alt="Kenangan manis" class="fade-in">
+                <img src="WhatsApp Image 2025-01-30 at 09.19.42_930ade94.jpg" alt="Kenangan manis" class="fade-in">
+            </div>
+        </div>
+    </div>
+    <script>
+        function showMessage() {
+            document.getElementById('message').classList.toggle('hidden');
+        }
+        function playMusic() {
+            var audio = document.getElementById('background-music');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+        function showQuotes() {
+            const quotes = [
+                "UBURRRR UBURRRR IKANNNN LELEEEE, I LOVEEEE YOUUUU LEEEEE"
+            ];
+            document.getElementById('randomQuote').textContent = quotes[Math.floor(Math.random() * quotes.length)];
+            document.getElementById('quotes').classList.toggle('hidden');
+        }
+        function showGift() {
+            document.getElementById('gift').classList.toggle('hidden');
+        }
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart-animation');
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.top = '100vh';
+            heart.innerHTML = '❤️';
+            document.body.appendChild(heart);
+            setTimeout(() => { heart.remove(); }, 3000);
+        }
+        setInterval(createHeart, 800);
+
+        
+    </script>
+</body>
+</html>
